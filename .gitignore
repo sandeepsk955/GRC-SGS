@@ -1,0 +1,32 @@
+# Backend (ignored by default)
+GRC-Backend-main/
+
+# Build and IDE
+bin/
+obj/
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.sln.docstates
+
+# Frontend
+project/node_modules/
+project/dist/
+project/.env
+project/.env.local
+.DS_Store
+
+# Temporary Documentation & Analysis
+*.docx
+*.zip
+*.txt
+Compliance_Period_Extracted/
+Compliance_Text_Better.txt
+Compliance_Period_Text_UTF8.txt
+Compliance_Period_Text.txt
+
+# Isolated Testing Directories
+testesting/
+BackendTests/
